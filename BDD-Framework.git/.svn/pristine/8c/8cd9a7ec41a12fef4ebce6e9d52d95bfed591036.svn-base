@@ -23,11 +23,6 @@ public class LoginStepDefination {
 		driver.get("https://classic.crmpro.com");
 	}
 	
-	@Then("^see the ui$")
-	public void verifyUIstatus(){
-		System.out.println("UI is proper");
-	}
-	
 	@When("^title of login page is free CRM$")
 	public void title_login_page_is_free_CRM(){
 		String title=driver.getTitle();
